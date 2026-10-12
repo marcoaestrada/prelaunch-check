@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+# your own configuration may name private paths and hosts: keep it out of the repository
+prelaunch.json
+.env
+.env.*

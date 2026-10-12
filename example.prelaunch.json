@@ -1,0 +1,12 @@
+{
+  "site": "https://example.com",
+  "expect_indexable": false,
+  "public_paths": ["/", "/about/", "/contact/"],
+  "protected_paths": ["/clients/", "/proposal/"],
+  "login_hosts": ["cloudflareaccess.com"],
+  "preview_hosts": ["https://abc123.my-project.pages.dev"],
+  "canonical_host": "example.com",
+  "forbidden_strings": ["Old Company Name", "lorem ipsum", "localhost", "TODO"],
+  "max_links": 40,
+  "timeout": 15
+}
